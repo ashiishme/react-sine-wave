@@ -13,8 +13,8 @@ class Wave {
         height: number,
         frequency: number
     ): void => {
-        context?.beginPath();
-        context?.moveTo(0, height);
+        context.beginPath();
+        context.moveTo(0, height);
         if (this.waveLength.length < 3) {
             return;
         }
@@ -23,15 +23,12 @@ class Wave {
             let wave2 = Math.sin(i * this.waveLength[1] - frequency);
             let wave3 = Math.sin(i * this.waveLength[2] - frequency);
 
-            context?.lineTo(
-                i * 2.5,
-                height - 400 + wave1 * wave2 * wave3 * 200
-            );
+            context.lineTo(i * 2.5, height - 400 + wave1 * wave2 * wave3 * 200);
         }
-        context?.lineTo(width, height);
+        context.lineTo(width, height);
         context.fillStyle = this.color;
-        context?.fill();
-        context?.closePath();
+        context.fill();
+        context.closePath();
     };
 }
 

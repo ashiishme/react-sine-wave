@@ -10,6 +10,7 @@ function App() {
                 <p className="project-source">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://github.com/ashiishme/react-sine-wave"
                     >
                         [ Find project on GitHub ]

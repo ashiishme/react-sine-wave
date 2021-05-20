@@ -1,4 +1,4 @@
-import React, { useRef, FC, useEffect, useState } from 'react';
+import { useRef, FC, useEffect, useState } from 'react';
 
 import { CanvasContext } from 'app/hooks/useCanvas';
 import useResponsiveSize from 'app/hooks/useResponsiveSize';

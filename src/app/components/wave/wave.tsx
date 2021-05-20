@@ -7,14 +7,6 @@ const Wave: FC = () => {
     const { context } = useCanvasContext();
     const { width, height } = useResponsiveSize();
     let frequency = 0.013;
-    //rgba(229,57,53,0.88)
-    //rgba(229,57,53,0.48)
-
-    //rgba(3,155,229,0.88)
-    //rgba(3,155,229,0.48)
-
-    //rgba(255,179,0,0.88)
-    //rgba(255,179,0,0.48)
     const waves = {
         frontWave: new WaveObj([0.0211, 0.028, 0.015], 'rgba(255,179,0,0.88)'),
         backWave: new WaveObj([0.0122, 0.018, 0.005], 'rgba(255,179,0,0.48)'),

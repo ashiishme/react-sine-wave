@@ -18,7 +18,7 @@ function App() {
                 </p>
             </div>
 
-            <Canvas />
+            <Canvas randomColor={true} />
         </div>
     );
 }

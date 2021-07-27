@@ -4,12 +4,16 @@ import { CanvasContext } from 'app/hooks/useCanvas';
 import useResponsiveSize from 'app/hooks/useResponsiveSize';
 import Wave from '../wave';
 
-const Canvas: FC = () => {
+type CanvasProps = {
+    randomColor: boolean;
+};
+const Canvas: FC<CanvasProps> = (props) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const { width, height } = useResponsiveSize();
 
-    const [context, setContext] =
-        useState<CanvasRenderingContext2D | undefined>();
+    const [context, setContext] = useState<
+        CanvasRenderingContext2D | undefined
+    >();
 
     useEffect(() => {
         const ctx = canvasRef?.current?.getContext('2d');
@@ -25,7 +29,7 @@ const Canvas: FC = () => {
                     width={width}
                     height={height}
                 ></canvas>
-                <Wave />
+                <Wave {...props} />
             </CanvasContext.Provider>
         </>
     );

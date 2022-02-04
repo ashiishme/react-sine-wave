@@ -1,4 +1,5 @@
 <div align="center">
+<img src="./public/ashiishme-react-sine-wave-logo.svg" alt="ashiishme react sinve wave logo built with react, typescript and canvas API"/>
 <h1 align="center" style="border: 0;"> React Sine Wave </h1>
 <p>Sine wave animation with random colors using React &amp; Typescript with Canvas API :heart_eyes:.</p>
 </div>

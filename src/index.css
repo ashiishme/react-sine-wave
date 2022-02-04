@@ -33,7 +33,7 @@ canvas {
 
 .header-info {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -41,12 +41,12 @@ canvas {
 }
 
 .app-title {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #212121;
 }
 
 .project-source {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .project-source a {

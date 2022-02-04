@@ -7,9 +7,13 @@ const useColor = () => {
     const blue = randomInteger()
     const primary = `rgba(${red}, ${green}, ${blue}, 0.88)`
     const secondary = `rgba(${red}, ${green}, ${blue}, 0.48)`
+    const bodyBackgroundColor = `rgba(${red}, ${green}, ${blue}, 0.58)`
+    // TODO: remove it from color generator
+    document.body.style.backgroundColor = bodyBackgroundColor
     return {
       frontWave: primary,
       backWave: secondary,
+      backgroundColor: bodyBackgroundColor,
     }
   }
 

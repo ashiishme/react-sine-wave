@@ -2,12 +2,12 @@ import { FC } from 'react'
 import { useCanvasContext } from 'app/hooks/useCanvas'
 import useResponsiveSize from 'app/hooks/useResponsiveSize'
 import { default as WaveObj } from 'app/lib/wave'
-import useColorGenerator from 'app/hooks/useColorGenerator'
+import useColor from 'app/hooks/useColor'
 
 const Wave: FC = () => {
   const { context } = useCanvasContext()
   const { width, height } = useResponsiveSize()
-  const { generateColor } = useColorGenerator()
+  const { generateColor } = useColor()
 
   let frequency = 0.013
   let colors: { [key: string]: string } = generateColor()

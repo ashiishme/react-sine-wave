@@ -6,9 +6,7 @@ Sine wave animation using React &amp; Typescript with Canvas API :heart_eyes:
 
 Deployed URL: https://ashiishme.github.io/react-sine-wave/
 
-
 https://user-images.githubusercontent.com/18111862/119013419-ad714480-b9b6-11eb-9903-79f573a74782.mp4
-
 
 # Installation
 

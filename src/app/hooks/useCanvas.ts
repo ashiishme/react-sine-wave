@@ -1,11 +1,11 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext } from 'react'
 
 export const CanvasContext = createContext<{
-    context: CanvasRenderingContext2D | undefined;
+  context: CanvasRenderingContext2D | undefined
 }>({
-    context: undefined,
-});
+  context: undefined,
+})
 
 export const useCanvasContext = () => {
-    return useContext(CanvasContext);
-};
+  return useContext(CanvasContext)
+}

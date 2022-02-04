@@ -1,1 +1,1 @@
-export { default } from './canvas';
+export { default } from './canvas'

@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { useCanvasContext } from 'app/hooks/useCanvas'
 import useResponsiveSize from 'app/hooks/useResponsiveSize'
-import { default as WaveObj } from 'app/lib/wave'
+import WaveEntity from 'app/entity/WaveEntity'
 import useColor from 'app/hooks/useColor'
 
 const Wave: FC = () => {
@@ -13,8 +13,8 @@ const Wave: FC = () => {
   let colors: { [key: string]: string } = generateColor()
   let timer = 1
   const waves = {
-    frontWave: new WaveObj([0.0211, 0.028, 0.015], 'rgba(255,179,0,0.88)'),
-    backWave: new WaveObj([0.0122, 0.018, 0.005], 'rgba(255,179,0,0.48)'),
+    frontWave: new WaveEntity([0.0211, 0.028, 0.015], 'rgba(255,179,0,0.88)'),
+    backWave: new WaveEntity([0.0122, 0.018, 0.005], 'rgba(255,179,0,0.48)'),
   }
 
   const render = () => {

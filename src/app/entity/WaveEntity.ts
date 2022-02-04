@@ -1,4 +1,4 @@
-class Wave {
+class WaveEntity {
   private waveLength: number[]
   private color: string
 
@@ -36,4 +36,4 @@ class Wave {
   }
 }
 
-export default Wave
+export default WaveEntity

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-sine-wave/static/css/main.e93ec99e.chunk.css",
-    "main.js": "/react-sine-wave/static/js/main.8deb4616.chunk.js",
-    "main.js.map": "/react-sine-wave/static/js/main.8deb4616.chunk.js.map",
+    "main.js": "/react-sine-wave/static/js/main.acf1fd6a.chunk.js",
+    "main.js.map": "/react-sine-wave/static/js/main.acf1fd6a.chunk.js.map",
     "runtime-main.js": "/react-sine-wave/static/js/runtime-main.c5ddbc64.js",
     "runtime-main.js.map": "/react-sine-wave/static/js/runtime-main.c5ddbc64.js.map",
     "static/js/2.bd0a43cc.chunk.js": "/react-sine-wave/static/js/2.bd0a43cc.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c5ddbc64.js",
     "static/js/2.bd0a43cc.chunk.js",
     "static/css/main.e93ec99e.chunk.css",
-    "static/js/main.8deb4616.chunk.js"
+    "static/js/main.acf1fd6a.chunk.js"
   ]
 }

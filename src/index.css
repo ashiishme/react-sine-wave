@@ -16,7 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #212121;
+  background: #ffffff;
   position: relative;
 }
 
@@ -42,7 +42,7 @@ canvas {
 
 .app-title {
   font-size: 3rem;
-  color: rgba(255, 179, 0, 1);
+  color: #212121;
 }
 
 .project-source {
@@ -50,6 +50,6 @@ canvas {
 }
 
 .project-source a {
-  color: rgba(255, 179, 0, 1);
+  color: #212121;
   text-decoration: none;
 }

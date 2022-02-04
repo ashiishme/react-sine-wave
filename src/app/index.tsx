@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Canvas from 'app/components/canvas'
 
 function App() {
